@@ -1,0 +1,19 @@
+﻿Build started 10/06/2021 19:03:53.
+     1>Project "C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\HumanMotion\HumanMotion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Jack's PC\Documents\UNI\COMVI\opencv\build\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Human Motion Main.cpp"
+         Human Motion Main.cpp
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(83): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(362): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(427): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(455): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(506): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jack's pc\documents\uni\comvi\humanmotion\humanmotion\human motion main.cpp(512): warning C4778: 'printf' : unterminated format string '%\n'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\Debug\HumanMotion.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Jack's PC\Documents\UNI\COMVI\opencv\build\x86\vc14\lib" opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\Debug\HumanMotion.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\Debug\HumanMotion.lib" /MACHINE:X86 "Debug\Human Motion Main.obj"
+         HumanMotion.vcxproj -> C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\Debug\HumanMotion.exe
+     1>Done Building Project "C:\Users\Jack's PC\Documents\UNI\COMVI\HumanMotion\HumanMotion\HumanMotion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
